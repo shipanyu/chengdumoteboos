@@ -1,0 +1,416 @@
+body {
+  margin-top: 70px;
+  background: #f8f8f8;
+}
+@media (max-width: 768px) {
+  #nav-ul {
+    background: #000;
+  }
+  #logos {
+    height: 50px;
+    width: 100px;
+    background: url(../img/logoii.png) no-repeat left center;
+    background-size: 100px 50px;
+    margin-left: 25px;
+    margin-top: 0px;
+    z-index: 100px;
+  }
+}
+.logos {
+  height: 50px;
+  width: 100px;
+  background: url(../img/logo.png) no-repeat left center;
+  background-size: 100px 50px ;
+}
+.logo2 {
+  height: 50px;
+  width: 100px;
+  background: url(../img/logoii.png) no-repeat left center;
+  background-size: 100px 50px;
+  transition: 0.65s linear;
+}
+.navbar-inverse .logo2 {
+  display: none;
+}
+/*滚动条向下滚动  样式*/
+.scrolled .navbar-inverse {
+  background: #fff;
+}
+.scrolled .navbar-inverse .logo2 {
+  display: block;
+}
+.scrolled .navbar-inverse .logos {
+  display: none;
+}
+.mt {
+  margin-top: 20px;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.w64 {
+  width: 64px;
+  border-radius: 5px;
+}
+.fontzi {
+  font-size: 14px;
+  color: #CCC;
+}
+.blank5 {
+  height: 5px;
+}
+.blank1,
+.blank2,
+.blank5,
+.blank10,
+.blank20,
+.blank30,
+.blank50 {
+  width: auto;
+  display: block;
+  overflow: hidden;
+  font-size: 0px;
+  line-height: 0px;
+  text-indent: -99999px;
+}
+.bk {
+  border: 1px #CCC solid;
+  padding: 10px 10px;
+}
+.pt {
+  padding-top: 80px;
+}
+.tcs {
+  color: #CCC;
+  font-size: 16px ;
+}
+.tco {
+  color: #985F0D;
+  font-size: 16px ;
+}
+.tcr {
+  color: #F00;
+}
+.mote-ac {
+  font-size: 12px;
+  color: #CCC;
+}
+.bg-b {
+  width: 400px;
+  font-size: 16px;
+  padding: 5px 0;
+  color: #FFF;
+  display: inline-block;
+  background: #000;
+}
+.bb {
+  padding: 20px 0;
+  border-bottom: 1px #CCC dashed;
+}
+.modelinfo {
+  text-align: center;
+}
+.whb {
+  padding: 5px 10px;
+  display: inline-block;
+  color: #1B6D85;
+  background: #CCC;
+}
+.plr {
+  padding: 5px 5px;
+}
+.lis li a:hover {
+  background: #000000;
+  color: #FFF;
+}
+.mt-li {
+  line-height: 25px;
+}
+.mt-li a {
+  color: #CCC;
+}
+.text-center {
+  text-align: center;
+}
+.linkbox {
+  border: 1px solid #4E4E4E;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  background: #FFF;
+  display: block;
+  padding: 1em;
+  text-align: center;
+  background-color: #fff;
+  transition: 0.15s ease-out;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bg-c {
+  background: #C0C0C0;
+}
+.bg-0 {
+  background: #1B1B1B;
+}
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0;
+  padding: 1px;
+}
+#bk-1:hover {
+  margin-top: -10px;
+}
+#bk-2:hover {
+  margin-top: -10px;
+}
+#bk-3:hover {
+  margin-top: -10px;
+}
+#bk-4:hover {
+  margin-top: -10px;
+}
+.mtp {
+  margin-top: 100px;
+}
+.bg-f {
+  background: #FFF;
+  padding: 20px 20px;
+}
+.bmd {
+  margin-top: 20px;
+  height: 1px;
+  border-bottom: 1px #CCC dashed;
+}
+.c0 {
+  color: #000000;
+}
+.pt40m20 {
+  padding: 40px 0 20px 20px;
+}
+.w90 {
+  width: 100%;
+  padding: 20px 0px 20px 20px;
+  background: #122B40;
+  color: orange;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.h-bg {
+  background: #122B40;
+  color: orange;
+  padding: 20px 0px ;
+}
+.p-mt {
+  margin-top: 40px;
+}
+.w250 {
+  width: 250px;
+}
+.m {
+  margin: 0 auto;
+}
+.dashed {
+  border-bottom: 1px #CCC dashed;
+}
+.p-mtm50 {
+  margin: 50px 0;
+}
+.bg-o {
+  background: orange;
+}
+.hei015 {
+  height: 20px;
+}
+.xixian003 {
+  height: 1px;
+  border-bottom: 1px #DEDEDE solid ;
+}
+/*.clearfix{
+    height: 1px;
+    border-bottom:1px #DEDEDE solid ;
+}*/
+#qugao {
+  margin-top: 0 ;
+  background: #7D45FE;
+  border: 0;
+}
+.cf {
+  color: #FFF;
+}
+.co {
+  color: orange;
+}
+.w108 {
+  width: 108px;
+  border-radius: 10px;
+}
+.pt15 {
+  padding-top: 15px ;
+}
+.pn15 {
+  padding-bottom: 15px ;
+}
+.pl30 {
+  padding-left: 30px;
+}
+.h30 {
+  height: 30px;
+  border-bottom: 1px #CCC dashed;
+}
+.wrap {
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+#header {
+  width: 100%;
+  position: fixed;
+  z-index: 999999;
+  padding: 0;
+  background-color: #000;
+  transition: all 0.5s;
+}
+.plr30 {
+  padding: 0 30px;
+}
+.bg-n {
+  background: none;
+}
+.bg-d {
+  background: #8A6D3B;
+}
+.w200 {
+  width: 170px;
+}
+.kuaixunpanel {
+  background: #fff;
+  line-height: 180%;
+  color: #4e4e4e;
+}
+.TickerNews {
+  width: 100%;
+  height: 50px;
+  line-height: 48px;
+}
+.ti_wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.modelinfo {
+  line-height: 160%;
+  color: #696969;
+  padding: 0 5px;
+  max-height: 160px;
+}
+.modelinfo .title_text {
+  color: rgba(0, 0, 0, 0.44);
+  font-size: 12px;
+}
+.modelinfo .title_text .en {
+  color: #9c9c9c;
+  font-size: 12px;
+}
+.panel {
+  margin-bottom: 0px;
+  background-color: #fff;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+}
+.panel-body {
+  padding: 15px;
+}
+.list-group {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.list-group-item .activeii {
+  z-index: 2;
+  color: #fff;
+  background-color: #383838;
+  border-color: #383838;
+  margin-bottom: 20px;
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  border: 0px solid #ddd;
+  font-size: 12px;
+  line-height: 180%;
+}
+.indemo {
+  float: left;
+  width: 180%;
+  line-height: 180%;
+}
+.demo {
+  text-align: center;
+}
+.demo1 {
+  text-align: center;
+}
